@@ -59,13 +59,13 @@ function generateMarkdown(response) {
 # ${response.Title}
 
 # Table of Contents
-  -[Description](#description)
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[License](#license)
-  -[Contributors](#contributors)
-  -[Test](#test)
-  -[Questions](#questions)
+  -[Description](#-description)
+  -[Installation](#-installation)
+  -[Usage](#-usage)
+  -[License](#-license)
+  -[Contributors](#-contributors)
+  -[Test](#-test)
+  -[Questions](#-questions)
 # Description
   -${response.Description}
 # Installation
