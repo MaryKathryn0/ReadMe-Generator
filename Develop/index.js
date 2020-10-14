@@ -66,13 +66,13 @@ function generateMarkdown(response) {
   -Contributors
   -Test
   -Questions
-# ${response.Description}
-# ${response.Installation}
-# ${response.Usage}
-# ${response.License}
-# ${response.Contributors}
-# ${response.Test}
-# ${response.Questions}
+# [Description](#description)${response.Description}
+# [Installation(#installation)${response.Installation}
+# [Usage](#usage)${response.Usage}
+# [License](#license)${response.License}
+# [Contributors](#contributors)${response.Contributors}
+# [Test](#test)${response.Test}
+# [Questions](#questions)${response.Questions}
     `;
 }
 
