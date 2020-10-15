@@ -1,8 +1,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-
 const writeFileAsync=util.promisify(fs.writeFile);
+const generateMarkdown = requires("./utils/generateMarkdown.js");
 
 // array of questions for user
 function promptUser() {
@@ -28,10 +28,19 @@ function promptUser() {
         name: "Usage"
       },
       {
-        type: "input",
-        message: "List any websites, sources or other did you utilize for this:",
-        name: "License"
-      },
+        type: "list",
+        name: "license",
+        message: "Chose the appropriate license for this project: ",
+        choices: [
+            "Apache",
+            "Academic",
+            "GNU",
+            "ISC",
+            "MIT",
+            "Mozilla",
+            "Open"
+        ]
+    },
       {
         type: "input",
         message: "List any contributors that collaborated on this project(github ids?):",
@@ -46,7 +55,8 @@ function promptUser() {
         type: "input",
         message: "Enter Github username, and email ",
         name: "Questions"
-      }
+      },
+      
       
 
 ]);
@@ -59,13 +69,13 @@ function generateMarkdown(response) {
 # ${response.Title}
 
 # Table of Contents
-  -[Description](#-description)
-  -[Installation](#-installation)
-  -[Usage](#-usage)
-  -[License](#-license)
-  -[Contributors](#-contributors)
-  -[Test](#-test)
-  -[Questions](#-questions)
+  -[Description](#description)
+  -[Installation](#installation)
+  -[Usage](#usage)
+  -[License](#license)
+  -[Contributors](#contributors)
+  -[Test](#test)
+  -[Questions](#questions)
 # Description
   -${response.Description}
 # Installation

@@ -14,13 +14,11 @@ node index.js
 
 Because this is a command-line application that won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates the functionality of your application. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer.
 
-## User Story
+## Goal
 
-```
-AS A developer
-I WANT a README generator
-SO THAT can quickly create a professional README for a new project
-```
+The very busy client wanted a Readme generator so that they would have more to spend on critical project details and less time formatting ReadMes. 
+
+
 
 ## Acceptance Criteria
 
