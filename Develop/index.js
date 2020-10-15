@@ -2,7 +2,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 const writeFileAsync=util.promisify(fs.writeFile);
-const generateMarkdown = requires("./utils/generateMarkdown.js");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // array of questions for user
 function promptUser() {
@@ -62,36 +62,7 @@ function promptUser() {
 ]);
 
 }
-// function to write README file
-function generateMarkdown(response) {
-    return`
 
-# ${response.Title}
-
-# Table of Contents
-  -[Description](#description)
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[License](#license)
-  -[Contributors](#contributors)
-  -[Test](#test)
-  -[Questions](#questions)
-# Description
-  -${response.Description}
-# Installation
-  -${response.Installation}
-# Usage
-  -${response.Usage}
-# License
-  -${response.License}
-# Contributors
-  -${response.Contributors}
-# Test
--${response.Test}
-# Questions
-  -${response.Questions}
-    `;
-}
 
 promptUser()
   .then(function(response) {
