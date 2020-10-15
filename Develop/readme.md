@@ -1,7 +1,7 @@
 
 
-# Meow Meow Meow
-
+# meow meow meow
+[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
 # Table of Contents
 -[Description](#description)
 -[Installation](#installation)
@@ -11,17 +11,17 @@
 -[Test](#test)
 -[Questions](#questions)
 # Description
--asdkfnaskdfnalskdfjaslkdfja;lsdkjfa;lsdkfja;lsdkfja;lsdkfja;sldkfja;sldkfjas;ldkfj
+-i am a cat 
 # Installation
--;asdlkfja;lsdkfjas;ldkfja;lsdkfja;lsdkfj
+-go to integrated terminal, node index.js
 # Usage
--a;sdlkfja;lsdkfja;sldkfjas;ldkfja;sldkfja;sldkfja;sldkfja;sdlfkjas;dlfkjas;ldkfjas;ldkfja;slkdfjdkkddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+-a;lskdjfa;lsdkjfa;sldkjfa;lskdjfa;sldkfja;sldkjf;asldkfjieururururrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr meow meow meow
 # License
 -undefined
 # Contributors
--me myself and I
+-@github info need to make this work
 # Test
--node index.js - then press enter
+-use a laser pointer
 # Questions
--MaryKathryn0
+-marykathryn0 meowmoewmeowwww
   
